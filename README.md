@@ -1,43 +1,40 @@
-# SQL-Project
+# IPL Auction Strategy Project
 
-# IPL Auction Data Analysis
-Motive
-The motive of this project is to develop a robust auction strategy for a new IPL franchise. This involves analyzing past IPL data to create a strong and balanced squad.
+# Overview
+This project aims to develop a winning auction strategy for a new IPL franchise by leveraging data analysis and insights. The focus is on creating a well-balanced squad with a mix of aggressive batsmen, anchor batsmen, hard-hitters, economical bowlers, wicket-taking bowlers, all-rounders, and a skilled wicketkeeper.
 
-# Background
-The Indian Premier League (IPL) is a professional Twenty20 cricket league in India, founded by the Board of Control for Cricket in India (BCCI) in 2007. It is one of the most-attended cricket leagues globally and has a significant impact on the cricketing world.
+Project Summary
+In this project, we utilized IPL data from the first season to the 13th season (2020) to gather insights and make informed decisions during the auction process. The key steps involved in solving the problem statement are outlined below.
 
-# Problem Statement
-In the upcoming IPL season, a new team is being added, and a mega auction is being held to build the team's squad. The team's management and auction strategy should consider factors such as budget allocation, team needs, player availability, player form, and player value.
-
-# Data
-The dataset provided includes IPL data from the first season to the 13th season (2020). Proper analysis and understanding of the data are necessary before loading it into the SQL server.
-
-# Bidding on Batsmen
+Step 1: Data Analysis
+Data Source: Utilized IPL data covering player performance, team statistics, and match details.
+Data Cleaning: Ensured proper handling of missing values, outliers, and inconsistencies.
+SQL Server Integration: Loaded and analyzed the data in SQL Server for efficient querying.
+Step 2: Bidding on Batsmen
 Aggressive Batsmen
-Aggressive batsmen play a key role in setting the tone for the innings. The goal is to acquire 2-3 players with a high strike rate (S.R) who have faced at least 500 balls.
-
-# Anchor Batsmen
-In T20 cricket, consistency is crucial. To achieve this, the objective is to get 2-3 players with a good average who have played more than 2 IPL seasons.
-
-# Hard Hitters
-Hard-hitting batsmen are essential for quick scoring. The aim is to acquire 2-3 hard-hitting players who have scored the most runs in boundaries and have played more than 2 IPL seasons.
-
-# Bidding on Bowlers
+Identified aggressive batsmen crucial for providing a quick start.
+Formulated strategies to target specific players, bid aggressively, use RTM cards, build a strong squad, and look for value picks.
+Anchor Batsmen
+Recognized the importance of anchor batsmen in providing stability.
+Developed strategies to acquire players with good averages who have played more than 2 IPL seasons.
+Hard-Hitting Players
+Understood the significance of hard-hitters in changing game momentum.
+Created strategies to acquire hard-hitting players based on boundary percentage and experience in more than 2 IPL seasons.
+Step 3: Bidding on Bowlers
 Economical Bowlers
-Economical bowlers help control the run rate and apply pressure. The goal is to get 2-3 bowlers with a good economy who have bowled at least 500 balls in the IPL.
-
-# Wicket-Taking Bowlers
-Wicket-taking bowlers have the ability to break partnerships and create pressure. The objective is to get 2-3 bowlers with the best strike rate who have bowled at least 500 balls in the IPL.
-
-# All-Rounders
-All-rounders contribute with both bat and ball, providing versatility to the team. The focus is on acquiring 2-3 all-rounders with the best batting and bowling strike rates, having faced at least 500 balls and bowled a minimum of 300 balls.
-
-# Wicketkeeper
-A wicketkeeper's role is crucial in T20 cricket. Criteria for selecting the best wicketkeepers include their batting and wicketkeeping abilities.
-
-# Visual Representation
-A visual representation, including graphs, tables, and charts, will be created to present the list of players to the team management before the auction.
-
-# Evaluation
-The evaluation will be based on the accuracy of the solutions provided for batters, bowlers, all-rounders, wicketkeepers, additional questions, and visualizations. Each section has specific marking criteria, and the total marks will be calculated accordingly.
+Acknowledged the value of economical bowlers in controlling run rates.
+Formulated strategies to acquire bowlers with good economy who have bowled at least 500 balls in IPL.
+Wicket-Taking Bowlers
+Recognized the importance of wicket-taking bowlers in breaking partnerships.
+Developed strategies to acquire bowlers with the best strike rates and a minimum of 500 balls bowled in IPL.
+Step 4: All-Rounders
+Emphasized the versatility and contribution of all-rounders to the team.
+Created strategies to acquire all-rounders with the best batting and bowling strike rates, having faced at least 500 balls and bowled a minimum of 300 balls in IPL.
+Step 5: Wicketkeeper
+Outlined the role of a wicketkeeper in T20 cricket.
+Defined criteria for choosing the two best wicketkeepers based on their batting, keeping, and overall impact.
+Step 6: Auction Strategy Presentation
+Compiled a list of 10 players for each category (batsmen, bowlers, all-rounders, and wicketkeepers) based on the defined criteria.
+Created a PowerPoint presentation with visual representations (graphs, tables, and charts) to present the auction strategy to the team management.
+Conclusion
+This project provides a comprehensive approach to developing an effective auction strategy for the new IPL franchise. The analysis and strategies outlined in this readme lay the foundation for a successful team composition and performance in the upcoming IPL season.
