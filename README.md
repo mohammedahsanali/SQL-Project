@@ -1,6 +1,6 @@
 # IPL Auction Strategy Project
 
-## Overview
+Overview
 This project aims to develop a winning auction strategy for a new IPL franchise by leveraging data analysis and insights. The focus is on creating a well-balanced squad with a mix of aggressive batsmen, anchor batsmen, hard-hitters, economical bowlers, wicket-taking bowlers, all-rounders, and a skilled wicketkeeper.
 
 Project Summary
